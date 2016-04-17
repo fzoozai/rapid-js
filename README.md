@@ -7,4 +7,4 @@
             price: 9.50
         };
         for ( var field in lineItem ) {console.log (field + " : " + lineItem[field])}; 
-##         
+##       
