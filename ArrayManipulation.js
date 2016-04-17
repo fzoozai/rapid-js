@@ -67,3 +67,29 @@ var result = blogText.match(pattern);
 console.log(result);
 
 /*Want to learn more about REGEX in JS? Have a look at developer.mozilla.org/Regex MDN */
+
+
+/* Let's get started with Objects, JSON, Prototypes */
+// create a new Object and use ._properties
+var project = new Object();
+project.name = 'Project X';
+project.securityLevel = 16;
+project.updateDueDate = function () {
+    return true;
+};
+console.log(project.updateDueDate());
+
+// create an object by using JSON
+
+var project = {};
+project.name = 'THE FLASH';
+console.log(project.name);
+
+var project = {
+    name: 'Barry Allen',
+    securityLevel: 17,
+    updateDueDate: function () {
+        return true;
+    }
+};
+console.log(project.name);
